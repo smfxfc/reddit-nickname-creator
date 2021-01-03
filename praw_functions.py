@@ -1,9 +1,9 @@
 #! python3
 
 import praw
+
 import config
 from nickname_creator import create_unique_nickname
-
 
 def bot_login():
     # creates a Reddit instance
