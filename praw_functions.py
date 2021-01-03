@@ -29,6 +29,7 @@ def add_users_by_comments(r, sr, user_list): # r=reddit instance, sr=subreddit n
     
     return user_list, comment_users_added
 
+
 def add_users_by_submissions(r, sr, user_list): # same function as add_users_by_comments, but for submissions
     submissions_users_added = 0
     for submission in r.subreddit(sr).new(limit=1000):
